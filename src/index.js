@@ -8,7 +8,7 @@ import {BrowserRouter as Router} from "react-router-dom"
 import store from './redux/store';
 import axios from "axios"
 
-axios.defaults.baseURL = "http://localhost:5000/api"
+axios.defaults.baseURL = "https://mern-task-api-ext1.onrender.com"
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
